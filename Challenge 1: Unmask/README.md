@@ -19,3 +19,9 @@ As with all assignments, pushing the boundaries of the brief will potentially ad
 Note: For this first challenge you DO NOT need to present an actual fabricated physical prototype, nor do you have to buy additional sensors; you just have to speculate on the build. Even though there is no need to actually fabricate or build the wearable, you should design it  — with sketches and/or renders &/or paper prototypes. You can speculate on the ergonomics of your design, the human-computer-interface (HCI) as well as the materials and methods of fabrication. Consider also possible power sources, how/where will they be incorporated?
 
 You DO need to either actually or virtually build your circuit design, to test your programming. Therefore, your code and circuit should be plausible — you are encouraged to use TinkerCAD to develop and test this Challenge. You are encouraged to independently seek out new code commands, especially to extend the brief.
+
+# Design
+
+# Code
+
+# Wiring
