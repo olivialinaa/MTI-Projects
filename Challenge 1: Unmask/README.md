@@ -22,7 +22,7 @@ You DO need to either actually or virtually build your circuit design, to test y
 
 # Design
 
-	![Design](assets/images/design.png)
+	![What is this](design.png)
 
 # Code
 
