@@ -28,12 +28,30 @@ The idea behind the design is that a ring works as the input device with which t
 
 # Code
 
-The arduino code can be found [here] ()
+The arduino code can be found [here](Assignment_1.ino)
 
-# Wiring
+# Circuit diagram and wiring
+
+## COMPONENT SELECTION
+
+### INPUT
+#### Selecting mood: Potentiometer
+To select a mood, I decided to use a potentiometer as input. Potentiometers are variable resistors and change their resistance when the dial is being turned. Depending on how far the dial is turned, a different voltage amount is applied to the pin which can then be read as an analog value that can be mapped to PWM (pulse width modulation) in order to for example change the color of a LED (Instructables, 2017).
+#### Detecting touch: wires as capacitive sensors
+Instead of using a complex a complex facial sEMG (surface electromyography) system, as suggested in the research part about detecting smiles, I decided to use capacititive touch sensors that can detect touch when the cheeks are raised underneath the mask while smiling. Capacitive sensors can sense the electrical capacitance of the human body (Arduino, n.d.). A simple wire can be used as a capacitive touch sensor. I decided to use 2 wires, to detect both the right and left cheek.
+
+### OUTPUT
+#### Display varying colors: RGB LED
+As I want to be able to display a full range of colors to reflect the wearer’s mood, I decided to use an RGB LED. An RGB LED consists of three colour LEDs: red, green
+and blue. By mixing those together, many other colors can be created (Arduino Project Hub, n.d.). 
+#### Play a sound: active piezo buzzer
+To play sound, when a smile is detected, a sound output device is needed. For this, an active piezo buzzer is chosen. Metal film inside the buzzer is vibrating which
+causes the resulting sound waves (Campbell, 2021).
 
 ![Wiring](wiring.png)
 
 # Final working prototype
 
-A video of the final working prototype can be found here: https://youtu.be/-9-NCaHEes4 
+A video of the final working prototype can be found [here](https://youtu.be/-9-NCaHEes4)
+
+![Final Prototype](finalprototype.png)
