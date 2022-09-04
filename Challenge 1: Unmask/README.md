@@ -32,7 +32,11 @@ The arduino code can be found [here](Assignment_1.ino)
 
 # Circuit diagram and wiring
 
-## COMPONENT SELECTION
+### Circuit diagram
+
+![Wiring](wiring.png)
+
+### Component selection
 
 ### INPUT
 #### Selecting mood: Potentiometer
@@ -47,8 +51,6 @@ and blue. By mixing those together, many other colors can be created (Arduino Pr
 #### Play a sound: active piezo buzzer
 To play sound, when a smile is detected, a sound output device is needed. For this, an active piezo buzzer is chosen. Metal film inside the buzzer is vibrating which
 causes the resulting sound waves (Campbell, 2021).
-
-![Wiring](wiring.png)
 
 # Final working prototype
 
