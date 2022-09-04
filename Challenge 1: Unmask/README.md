@@ -28,13 +28,9 @@ The idea behind the design is that a ring works as the input device with which t
 
 # Code
 
-The arduino code can be found [here](Assignment_1.ino)
+The arduino code can be found [here!](Assignment_1.ino)
 
 # Circuit diagram and wiring
-
-### Circuit diagram
-
-![Wiring](wiring.png)
 
 ### Component selection
 
@@ -52,8 +48,12 @@ and blue. By mixing those together, many other colors can be created (Arduino Pr
 To play sound, when a smile is detected, a sound output device is needed. For this, an active piezo buzzer is chosen. Metal film inside the buzzer is vibrating which
 causes the resulting sound waves (Campbell, 2021).
 
+### Circuit diagram
+
+![Wiring](wiring.png)
+
 # Final working prototype
 
-A video of the final working prototype can be found [here](https://youtu.be/-9-NCaHEes4)
+A video of the final working prototype can be found [here!](https://youtu.be/-9-NCaHEes4)
 
 ![Final Prototype](finalprototype.png)
