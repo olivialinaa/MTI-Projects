@@ -22,6 +22,8 @@ You DO need to either actually or virtually build your circuit design, to test y
 
 # Design
 
+	/assets/images/design.png
+
 # Code
 
 # Wiring
