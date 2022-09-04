@@ -22,8 +22,13 @@ You DO need to either actually or virtually build your circuit design, to test y
 
 # Design
 
+The idea behind the design is that a ring works as the input device with which the wearer can select his/her current mood and depending on this the colour of the earrings (or other weareble device/jewelry) changes. A second input device is the mask, which will detect if the wearer is smiling underneath it. Whenever a smile is being detected the earrings will light with more intense brightness and a little jingle will be played to add sound to the interaction.
 	![What is this](walkthrough.png)
 
 # Code
 
 # Wiring
+
+# Final working prototype
+
+A video of the final working prototype can be found here: https://youtu.be/-9-NCaHEes4 
