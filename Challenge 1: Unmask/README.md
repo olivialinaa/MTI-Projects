@@ -22,7 +22,7 @@ You DO need to either actually or virtually build your circuit design, to test y
 
 # Design
 
-	![What is this](Challenge 1: Unmask/design.png)
+	![What is this](walkthrough.png)
 
 # Code
 
