@@ -24,7 +24,7 @@ You DO need to either actually or virtually build your circuit design, to test y
 
 The idea behind the design is that a ring works as the input device with which the wearer can select his/her current mood and depending on this the colour of the earrings (or other weareble device/jewelry) changes. A second input device is the mask, which will detect if the wearer is smiling underneath it. Whenever a smile is being detected the earrings will light with more intense brightness and a little jingle will be played to add sound to the interaction.
 
-![Design](walkthrough.png)
+![Design](design.png)
 
 # Code
 
@@ -57,3 +57,9 @@ causes the resulting sound waves (Campbell, 2021).
 A video of the final working prototype can be found [here!](https://youtu.be/-9-NCaHEes4)
 
 ![Final Prototype](finalprototype.png)
+
+# Walkthrough
+
+![Walkthrough](walkthrough.png)
+
+Emma is wearing the devices, which are the mood ring, the mask and the earrings. Depending on how she feels, Emma can change the mood on her ring by sliding it around her finger. Right now she is feeling confident, so she is setting the mood to that (1). Now her earrings light up in the corresponding colour with 50% brightness (2). The capacitive sensors inside her mask are identifiying whether Emma is smiling, by checking whenever both sensors are exceeding the set threshold (3). When that is the case, the earrings light up with 100% brightness and a little happy jingle is being played (4). The lighting up and jingle last for a short time, before returning to the previous state with 50% brightness (5). Whenever Emma feels that her mood changes, she can set the ring to a new status (6), and her earrings will change color accordingly (7). This will also reflect when Emma is detecting laughing again, then the earrings will light up in the new mood colour (8).
