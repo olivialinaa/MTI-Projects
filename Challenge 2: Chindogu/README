@@ -1,4 +1,4 @@
-# Challenge
+#Challenge
 
 “Chindōgu means unusual/rare/precious (chin) tool (dōgu). It originated from Japan, by an inventor by the name of Kenji Kawakami. Sometimes it is known by another term, while recognised as a different name in other parts of the world: unuseless inventions, weird tools, kludge, jugaad, Système D.
 
@@ -8,17 +8,17 @@ Given the pandemic across the world, borders have been closed for so long. Now t
 
 Design an Arduino based based solution that adopts the philiosophy of Chindōgu. Come up with an interactive contraption that supports, resolves, reflects or critiques on the various challenges associated with travel. Be as absurd and poetic, even nonsensical, as you want it to be, or if you wish, focus on the functional.”
 
-# Design
+#Design
 
 The idea behind the design is that a ring works as the input device with which the wearer can select his/her current mood and depending on this the colour of the earrings (or other weareble device/jewelry) changes. A second input device is the mask, which will detect if the wearer is smiling underneath it. Whenever a smile is being detected the earrings will light with more intense brightness and a little jingle will be played to add sound to the interaction.
 
 ![Design](design.png)
 
-# Code
+#Code
 
 The arduino code can be found [here!](Assignment2.ino)
 
-# Circuit diagram and wiring
+#Circuit diagram and wiring
 
 ### Component selection
 
