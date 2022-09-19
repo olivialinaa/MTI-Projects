@@ -19,7 +19,7 @@ So you can still take pictures, but won’t be able to see the pictures you actu
 
 # Code
 
-The arduino code can be found [here!](Assignment_2.ino)
+The arduino code can be found [here!](Assignment2.ino)
 
 # Circuit Diagram & Wiring
 
