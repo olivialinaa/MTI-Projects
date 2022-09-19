@@ -13,17 +13,19 @@ on making memories, but walking around with your phone all the time is also a sa
 Based on that, I decided to focus my design on reminding one to experience the world
 around us while traveling without constantly looking at your phone. Therefore, I decided to make a design that turns your glasses black whenever you look at your phone as a gentle reminder that says:
 
-## Either your phone is experiencing the world around you, or you are experiencing it yourself!
+#### Either your phone is experiencing the world around you, or you are experiencing it yourself!
 
 So you can still take pictures, but won’t be able to see the pictures you actually take. Or you can experience your surroundings with your own eyes, but won’t be able to capture them with your phone at the same time. So, it’s a useless and annoying product, that makes you look ridiculous every time you take out your phone and it won’t allow you to take nice pictures or look up your way on Google Maps, but at the same time it’s useless (unuseless in Chindogu) because it makes you pay full attention to your surroundings and enjoy the moment while traveling.
 
 # Code
 
+The arduino code can be found [here!](Assignment_2.ino)
+
 # Circuit Diagram & Wiring
 
-## Component Selection
+### Component Selection
 
-## INPUT
+### INPUT
 
 To prototype the chosen design, input was needed that would resemble using a phone. Therefore,
 an RFID sensor was chosen to detect if someone is holding the phone by detecting when the RFID tag is close to the sensor. To prevent wrong detection, e.g. while someone is holding the phone, but inside a pocket, a photoresistor is chosen that measures if it is dark (inside the pocket) or bright (outside the pocket). In addition, a toggle switch was added to resemble turning
@@ -31,3 +33,6 @@ on and off the phone screen, to prevent the mechanism from being activated when 
 holding the phone but not actually using it.
 
 ## OUTPUT
+
+To make the glasses turn black when the phone is being used, a servo motor was chosen to enable
+the movement of the cover. To also have a warning light and sound, a LED and piezo buzzer were added as outputs.
