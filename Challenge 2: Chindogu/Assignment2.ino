@@ -171,7 +171,7 @@ void loop(){
   }
 }
 
-  //if card is removed, move servo back to 0 degrees and turn LED off
+  //if card is removed, move servo back to original position and turn LED off
   Serial.println("CardRemoved");
   myservo.write(110);
   digitalWrite(Green_LED,LOW);
